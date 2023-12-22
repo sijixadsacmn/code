@@ -1,7 +1,3 @@
-# coding=utf-8
-# @Author  : Mohammadreza Qaraei
-# @Email   : mohammadreza.mohammadniaqaraei@aalto.fi
-
 
 import torch
 import torch.nn as nn
