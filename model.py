@@ -12,7 +12,6 @@ class RN2DPCA(nn.Module):
                  rff_num_filter2, pca_num_filter1, pca_num_filter2, hist_blk_size,
                  hist_blk_over, sigma1, sigma2):
         super(RN2DPCA, self).__init__()
-        self.ssp = SPP(5)
         self.kernel_size1 = kernel_size1
         self.kernel_size2 = kernel_size2
         self.rff_num_filter1 = rff_num_filter1
